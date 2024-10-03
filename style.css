@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+padding: 10px 10px;
+border-bottom: 1px solid lightgray;
+
+}
+.navigation{
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap:50%;
+   
+
+}
+
+.navigation a{
+    text-decoration: none;
+color:black;
+    font-size: 18px;
+}
+.btn-flex{
+    display: flex;
+    gap:8px;
+
+}
+.btn-flex a{
+    color:#3578E5;
+    border-radius: 12px;
+padding: 10px 15px;
+}
+.btn-login {
+background-color: #3578E5;
+color:white !important;
+}
+
+
+/*************icard section***********/
+.card{
+    width: 1000px;
+    align-items: center;
+    margin: 80px auto;
+    
+}
+.icard{
+   /* margin: 80px auto;*/
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gimg-left{
+    width:20%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    outline-offset: 5px;
+    outline: 4px solid orangered;
+}
+
+    .right-row1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+}
+.itititle{
+    font-size: 22px;
+}
+.flex-btn{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+}
+.flex-btn button{
+background-color: #ede9e9;
+color:black;
+padding: 10px 25px;
+border:none;
+border-radius: 10px;
+font-size: 16px;
+}
+
+.right-row2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right-row3{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+
+}
+.row3title-comman {
+    color:gray;
+    margin: 3px 1px;
+    font-size: 16px;
+}
+.row3title{
+    color:black;
+    margin: 3px 1px;
+    font-size: 16px;
+}
+.right-row3 button{
+    width: 80px;
+    padding: 10px 2px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ede9e9;
+}
+
+.box1{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    outline: 1px solid lightgray;
+    outline-offset: 2px;
+    border-radius: 50%;
+}
+.box2{
+   
+    width: 70px;
+    height: 70px;
+    background-color: #3f7cdf;
+    outline: 1px solid lightgray;
+    outline-offset: 2px;
+    border-radius: 50%; 
+}
+.box3{
+   
+    width: 70px;
+    height: 70px;
+    background-color: #3fdf74;
+    outline: 1px solid lightgray;
+    outline-offset: 2px;
+    border-radius: 50%; 
+}
+.box4{
+   
+    width: 70px;
+    height: 70px;
+    background-color: #89aeea;
+    outline: 1px solid lightgray;
+    outline-offset: 2px;
+    border-radius: 50%; 
+}
+
+.four-box-section{
+    display: flex;
+    margin-top: 20px;
+    gap:100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-post{
+    margin: 80px auto;
+    width: 1000px;
+    border-top: 1px solid lightgray;
+}
+
+/************section post******************/
+.post-navigation{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    margin:10px 1px;
+
+}
+.post-navigation a{
+    display: flex;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    gap:10px;
+
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+.post-cardbox1{
+    margin:0 auto;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.post-cardbox2{
+    margin:5px auto;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.post-card{
+    width: 250px;
+}
+.post-btn{
+    position: absolute;
+    padding: 15px 20px;
+    background-color: #3578E5;
+    border-radius: 12px;
+    border: none;
+    color:white;
+    width: 400px;
+    font-size: 16px;
+    bottom: 15px;
+    left:450px;
+}
+
+.insta-footer{
+    width: 1000px;
+    margin:0 auto;
+}
+.section1-foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+.section1-foot button{
+    background-color: white;
+    border: none;
+    color:#3578E5;
+    font-size: 18px;
+}
+
+.foot-flexcard{
+    display: flex;
+    gap:10px;
+    margin: 10px 0;
+}
+.sectioncard{
+    width:150px;
+    border:1px solid lightgray;
+    border-radius:8px ;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.sectioncard  .card-img{
+    width:50%;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 50%;
+    border:1px solid lightgray;
+}
+
+.sectioncard button{
+    border: none;
+    background-color: lightgray;
+    border-radius: 12px;
+    font-size: 16px;
+    color:black;
+    padding: 10px 13px;
+}
+
+
+/**********************feed section****************/
+.feed{
+    width: 560px;
+    margin: 60px auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+   border-radius: 14px; 
+
+}
+.feed-img{
+   width: 100%;
+   border-radius: 14px; 
+}
+.avtar{
+    height: 50px;
+    border-radius: 50%;
+
+}
+.profile{
+    display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+    gap:8px;
+}
+.username{
+    color:gray;
+    font-size: 14px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-icons{
+    display: flex;
+    gap:12px;
+}
